@@ -1,0 +1,5 @@
+2025-07-29 15:29:59,813 - INFO - Logged to Kafka on topic 'api_requests': {'operation': 'power', 'input': '2^76', 'result': 7.555786372591432e+22, 'source': 'db'}
+2025-07-29 15:30:12,021 - INFO - Logged to Kafka on topic 'api_requests': {'operation': 'power', 'input': '2^76', 'result': 7.555786372591432e+22, 'source': 'db'}
+2025-07-29 15:30:22,856 - INFO - Logged to Kafka on topic 'api_requests': {'operation': 'power', 'input': '2^87', 'result': 1.5474250491067253e+26, 'source': 'db'}
+2025-07-29 15:30:24,852 - INFO - Logged to Kafka on topic 'api_requests': {'operation': 'power', 'input': '2^87', 'result': 1.5474250491067253e+26, 'source': 'db'}
+2025-07-29 15:30:43,940 - INFO - Logged to Kafka on topic 'api_requests': {'operation': 'factorial', 'input': '87', 'result': 2.107757298379528e+132, 'source': 'db'}

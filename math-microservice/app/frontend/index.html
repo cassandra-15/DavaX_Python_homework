@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Math Microservice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>✨ Math Microservice</h1>
+        <p class="subtitle">Perform mathematical operations instantly</p>
+
+        <div class="card">
+            <h2>🔢 Power</h2>
+            <input type="number" id="base" placeholder="Base">
+            <input type="number" id="exponent" placeholder="Exponent">
+            <button onclick="callPower()">Calculate</button>
+            <button class="clear" onclick="clearPower()">Clear</button>
+            <p id="powerResult" class="result"></p>
+        </div>
+
+        <div class="card">
+            <h2>🧮 Factorial</h2>
+            <input type="number" id="factorialNum" placeholder="Enter a number">
+            <button onclick="callFactorial()">Calculate</button>
+            <button class="clear" onclick="clearFactorial()">Clear</button>
+            <p id="factorialResult" class="result"></p>
+        </div>
+
+        <div class="card">
+            <h2>🌀 Fibonacci</h2>
+            <input type="number" id="fibonacciNum" placeholder="Enter n">
+            <button onclick="callFibonacci()">Calculate</button>
+            <button class="clear" onclick="clearFibonacci()">Clear</button>
+            <p id="fibonacciResult" class="result"></p>
+        </div>
+
+        <footer>
+            <p>💡 FastAPI + SQLite + Redis + Prometheus</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

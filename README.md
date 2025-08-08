@@ -43,7 +43,7 @@ If the result of an operation exists in cache or database, it's returned immedia
 ### 1. Clone the repo
 
 ```bash
-git clone https://your-repo-url.git
+git clone https://github.com/cassandra-15/DavaX_Python_homework.git
 cd math-microservice
 ```
 ## Build and Start Services
